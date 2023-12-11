@@ -2,10 +2,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-/**
- *
- * @author DAVIDANDRESOLIVAHERN
- */
+
 public class Tablero {
 
     private int Fila = 0;
@@ -30,13 +27,13 @@ public class Tablero {
                     graficos.drawRect(Culumna * 30, Fila * 30, ancho * 3, alto * 3);
 
                 } else if (Tablero[Fila][Culumna] == '1') {//Amariyo
-                    graficos.setColor(Color.yellow);
+                    graficos.setColor(Color.YELLOW);
                     graficos.fillRect(Culumna * 30, Fila * 30, ancho * 3, alto * 3);
                     graficos.setColor(Color.black);
                     graficos.drawRect(Culumna * 30, Fila * 30, ancho * 3, alto * 3);
 
                 } else if (Tablero[Fila][Culumna] == 'r') {//rojo
-                    graficos.setColor(Color.red);
+                    graficos.setColor(Color.RED);
                     graficos.fillRect(Culumna * 30, Fila * 30, ancho * 3, alto * 3);
                     graficos.setColor(Color.black);
                     graficos.drawRect(Culumna * 30, Fila * 30, ancho * 3, alto * 3);
